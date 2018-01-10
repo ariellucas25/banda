@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Banda Lua Morena</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/gallery-grid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/inputmask-plugin.js"></script>
+    <script src="main.js"></script>
+    <style>
+        .img_cabecalho {
+            padding-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <img class="img-responsive header" src="img/cabecalho.jpg" alt="">
+    </section>
+
+    <header class="container">
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-id">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Lua Morena</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-id">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#videos">VÍDEOS</a>
+                    </li>
+                    <li>
+                        <a href="#fotos">FOTOS</a>
+                    </li>
+                    <li>
+                        <a href="#">REGULAMENTO</a>
+                    </li>
+                    <li>
+                        <a href="#contato">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="content-site">
+        <div class="container">
+            <div>
+                <picture>
+                    <a href="regulamento.html">
+                        <img id="banner" src="img/campanha.png" alt="imagem campanha" class="img-responsive">
+                    </a>
+                </picture>
+            </div>
+            <section id="videos">
+                <h1>Videos</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="embed-container">
+                            <iframe src="https://www.youtube.com/embed/AYDqoivwlJs?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="embed-container">
+                            <iframe src="https://www.youtube.com/embed/jtgox6RyfBM" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-container">
+                            <iframe src="https://www.youtube.com/embed/XPhr_x92MW4?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="embed-container">
+                            <iframe src="https://www.youtube.com/embed/ZIM0TxGxdOs" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <section class="noivos">
+        </section>
+        <div id="fotos" class="tz-gallery container">
+            <h2>Fotos</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/01.jpg">
+                        <img src="img/01.jpg" alt="Park">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/02.jpg">
+                        <img src="img/02.jpg" alt="Bridge">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="img/03.jpg">
+                        <img src="img/03.jpg" alt="Tunnel">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/04.jpg">
+                        <img src="img/04.jpg" alt="Coast">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/01.jpg">
+                        <img src="img/01.jpg" alt="Rails">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/02.jpg">
+                        <img src="img/02.jpg" alt="Traffic">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/03.jpg">
+                        <img src="img/03.jpg" alt="Rocks">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/04.jpg">
+                        <img src="img/04.jpg" alt="Benches">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/01.jpg">
+                        <img src="img/01.jpg" alt="Sky">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="contato" class="container contato">
+
+        <form class="col-sm-8 col-lg-9">
+            <div class="row">
+                <fieldset class="col-md-4">
+                    <legend>Enviar E-mail</legend>
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <input type="telefone" class="form-control" id="telefone" name="telefone" placeholder="Telefone" data-mask="(99) 9 9999-9999">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon">@</span>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea class="form-control" id="mensagem" name="mensagem" required rows="4" cols="50"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        Enviar Mensagem</button>
+                </fieldset>
+
+                <fieldset class="col-md-8">
+                    <legend>Ou se preferir:</legend>
+                    <a class="lead" href="https://api.whatsapp.com/send?1=pt_BR&phone=5547996818260">47 9 9681-8260 - Com Ariel</a>
+                    <p class="lead">bandaluamorena@gmail.com</p>
+                    <br>
+                    <br>
+                    <a class="lead" href="https://api.whatsapp.com/send?1=pt_BR&phone=5547999497403">47 9 9949-7403 - Com Jonas</a>
+                    <p class="lead">bandaluamorena2@gmail.com</p>
+                </fieldset>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p class="col-md-8">Banda Lua Morena - 2018</p>
+                <ul class="social col-md-4">
+                    <li>
+                        <a href="http://facebook.com/bandaluamorena">
+                            <img src="img/facebook-icon.png" alt="facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCFs7ie-vKJlYMDzvoARMTCQ/videos">
+                            <img src="img/youtube-icon.png" alt="youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+</body>
+
+</html>
